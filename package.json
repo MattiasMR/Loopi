@@ -1,0 +1,16 @@
+{
+  "name": "loopi-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prototipo local de Loopi para cliente y operaciones",
+  "scripts": {
+    "start": "node app/server.js",
+    "build:exe": "node app/build-exe.cjs"
+  },
+  "devDependencies": {
+    "postject": "1.0.0-alpha.6"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "main": "app/sea-main.cjs",
+  "output": "build/loopi-sea.blob",
+  "disableExperimentalSEAWarning": true,
+  "useCodeCache": false,
+  "assets": {
+    "index.html": "public/index.html",
+    "cliente.html": "public/cliente.html",
+    "operacion.html": "public/operacion.html"
+  }
+}
